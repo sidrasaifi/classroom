@@ -7,81 +7,115 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        span {
-            font-size: 100px;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        body {
+            background-color: rgb(237, 245, 244);
+        width:100%;
         }
 
-        .google {
-            text-align: center;
-            margin-top: 200px;
+        .fbook {
+            color: rgb(84, 84, 245);
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 70px;
+            margin-top: 220px;
+             margin-left: 200px;
+            font-weight: bold;
+        }
 
+        p {
+            font-size: 30px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-weight: lighter;
+            margin-top: 10px;
+            margin-left: 200px;
+
+        }
+
+        .table2 {
+            background-color: rgb(233, 238, 243);
+            margin-top: 50px;
+            height: 450px;
+            width: 450px;
+            border: transparent;
+            border-radius: 12px;
         }
 
         input {
-            margin-left: 400px;
-            width: 550px;
+            font-size: 20px;
+            width: 300px;
+            margin-left: 70px;
+            margin-top: 30px;
             height: 40px;
-            margin-top: 20px;
-            border: 1px solid grey;
-            border-radius: 30px;
+            margin-bottom: 10px;
+            border-radius: 10px;
         }
 
         button {
-           
-
+            background-color: rgb(88, 88, 235);
+            color: white;
+            font-size: 20px;
+            margin-left: 70px;
+            margin-top: 30px;
+            height: 60px;
+            width: 300px;
+            border: transparent;
+            border-radius: 20px;
         }
 
-        .button {
-     margin-left: 550px;
-     margin-top: 20px;
-
+        a {
+            margin-top: 110px;
+            margin-left: 170px;
 
 
         }
-        body{
-      margin-top: 0%;
-     background-color: rgb(110, 105, 105);
-     color: aliceblue;
+        td{
+            width: 50%;
         }
-        a{
-            text-decoration: none;
+        table
+        {
+            width: 100%;
         }
-        nav{
-     padding: 10px 10px;
-
+        
+        .b1{
+background-color: rgb(58, 204, 58);
+color: aliceblue;
+border-radius: 10px;
         }
     </style>
-
 </head>
 
 <body>
- <nav style=" background-color:rgb(87, 81, 81) ">  
-    <div style="margin-left:1100px ">
-<a href="">Gmail</a>
-<a href="">images</a>
-<button style="margin-left: 30px; background-color: rgb(51, 132, 238); font-size: 15px; color:aliceblue; border:none ; padding: 5px 5px; border-radius: 5px; font-size: 25px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">signin</button>
+    <table>
+        <tr>
+            <td>
+              <div class="left-side">
+                <div class="fbook" >
+                    facebook
+                </div>
+                <div>
+                    <p style=""> Facebook helps you connect and share <br>with the people in your
+                        life.</p>
+                    </div>
+              
+            </td>
+            <td>
+                <div class="table2">
+                    <form>
+                        <input type="text" placeholder="email address or phone number">
+                        <input type="text" placeholder="password">
+                        <button>log-in</button>
+                        <a href="">forget password?</a>
+                    
+                        
+                    </form>
+                    <hr>
+                  <button class="b1">create new aacount</button>
+                </div>
 
- </nav>
-    <div class="google">
-        <span style="color:blue ;">G</span>
-        <span style="color:red ;">o</span>
-        <span style="color:yellow ;">o</span>
-        <span style="color:blue;">g</span>
-        <span style="color:green ;">l</span>
-        <span style="color:red;">e</span>
-    </div>
-    <form action="">
-        <input type="text">
-    </form>
-    <div class="button">
-        <button>google search</button><button style="margin-left: 10px;">i'm feeling lucky</button>
-    </div>
-    <div style="margin-left:400px ;">
-        <p> 
-            Google offered in: <a href=""> हिन्दी বাংলা తెలుగు मराठी தமிழ் ગુજરાતી ಕನ್ನಡ മലയാളം ਪੰਜਾਬੀ </a>
-        </p>
-    </div>
+            </td>
+        </tr>
+    </table>
+
+   
 </body>
 
 </html>
