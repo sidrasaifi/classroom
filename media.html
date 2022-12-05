@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+.main{
+height: 100px;
+width: 500px; background-color: brown;
+display: none;
+}
+@media  (min-width:0px) and (max-width:480px){
+#one{
+    display: block; 
+    background-color: chocolate;
+}
+}
+@media (min-width:481px) and (max-width:768px){
+    #two{
+        display: block;
+        background-color: crimson;
+        font-size: 20px;
+        color: blue;
+    }
+
+}
+@media (min-width:781px) and (max-width:1024px){    
+#three{
+display: block;
+background-color: aqua;
+font-size: 40px;
+color: darkblue;
+}
+}
+@media (min-width:1025px) and (max-width:1200px)
+{
+#three{
+    display: block;
+    background-color: darkgray;
+    font-size: 50px;
+    color: darkgoldenrod;
+}
+}
+@media(min-width:1201px) {
+#four{
+display: block;
+background-color: chartreuse;
+font-size: 60px;
+color: black;
+}
+
+}
+    </style>
+</head>
+
+<body>
+    <div class="main" id="one">
+        nothin to see
+    </div>
+    <div class="main" id="two">
+        this is empty
+    </div>
+    <div class="main" id="three">
+       okey-dokey
+    </div>
+    <div class="main" id="four">
+haha
+    </div>
+   
+</body>
+</html>
