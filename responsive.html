@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-image: linear-gradient(black, rgb(97, 94, 94), rgb(151, 151, 151));
+        }
+
+        .container {
+            height: auto;
+            width: 500px;
+            background-color: rgb(116, 93, 116);
+            margin: auto;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr;
+            padding: 15px;
+            column-gap: 15px;
+            row-gap: 15 px;
+            color: rgb(67, 70, 73);
+            border-radius: 50px;
+        }
+
+        .item {
+            height: 100px;
+            background-color: rgb(158, 145, 145);
+        }
+
+        .item1 {
+            grid-column-start: 1;
+            grid-column-end: 4;
+            background-color: transparent;
+
+        }
+
+        input {
+            color: darksalmon;
+            padding: 20px 20px;
+            width: 90%;
+            border-start-end-radius: 15px;
+            border-end-start-radius: 20px;
+        }
+
+        button {
+           /* cursor: pointer;
+            color: aliceblue;
+            font-size: 25px;
+            border: none;
+            transition: 1s all;*/
+        }
+
+        button:hover {
+            background-color: coral;
+            border: none;
+        }
+
+        .main {
+            text-align: center;
+            color: beige;
+
+        }
+
+        h1 {
+            font-size: 90px;
+            background-image: linear-gradient(rgb(190, 147, 147), rgb(46, 13, 46));
+            -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
+        }
+        #display
+        {
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <h1>calculator</h1>
+    </div>
+    <div class="container">
+        
+        <div class="item item1"><input type=" text name" id=""></div>
+        <button class="item">1</button>
+        <button class="item">1</button>
+        <button class="item">1</button>
+        <button class="item">1</button>
+        <button class="item">1</button>
+        <button class="item">1</button>
+        <button class="item">1</button>
+        <button class="item">1</button>
+        <button class="item">1</button>
+    </div>
+</body>
+
+</html>
